@@ -1,0 +1,13 @@
+资讯|zixun
+国际|guiji
+国内|guonei
+社会|shehui
+体育|tiyu
+娱乐|yule
+生活|shenghuo
+历史|lishi
+文化|wenhua
+教育|jiaoyu
+科技|keji
+股票|gupiao
+时尚|shishang

@@ -1,0 +1,160 @@
+Test.<@随机数字(9,10)>
+<@关键词1=主关键词(1)><@关键词2=主关键词(2)><@关键词3=主关键词(3)><@关键词4=主关键词(4)><@关键词5=主关键词(5)>
+<@关键词6=主关键词(6)><@关键词7=主关键词(7)><@关键词8=主关键词(8)><@关键词9=主关键词(9)><@关键词10=主关键词(10)>
+<@关键词11=主关键词(11)><@关键词12=主关键词(12)><@关键词13=主关键词(13)><@关键词14=主关键词(14)><@关键词15=主关键词(15)>
+<@蜘蛛描述=输出($关键词1,，,$关键词2,，,$关键词3,，,$关键词4,，,$关键词5,，,$关键词6,，,$关键词7,，,$关键词8,，,$关键词9,，,$关键词10,，,$关键词11,，,$关键词12,，,$关键词13,，,$关键词14,，,$关键词15)>
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title><@主关键词><~输出($蜘蛛描述)></title>
+    <meta name="keywords" content="<@输出($蜘蛛描述)>">
+	<meta name="description" content="<@随机描述>">
+    <link rel="stylesheet" type="text/css" href="/asset/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/asset/css/page.css">
+	<script type="text/javascript">
+    $(function(){
+        $("#KinSlideshow").KinSlideshow();
+    })
+    </script>
+ <style>
+    h1{font-size:15px !important;}
+    </style>
+</head>
+
+<body>
+	<div class="bg-fff content1">
+    	<div class="topBar content1">
+    	<ul>
+        	<li class="h30 lh30">
+            	<span class="fl pr20">通行证 | 帐号：<input type="text" class="textInput1 h20"></span>
+                <span class="fl pr20">密码：<input type="password" class="textInput1 h20"></span>
+                <span class="fl pr20"><button class="btn1 pl20 pr20">登录</button></span>
+                <span class="fl pr20"><a href="">注册</a></span>
+                <span class="fr"><a href="" class="pr5">手机版</a> | <a href="" class="pr5 pl5">广告合作</a> | <a href="/" class="pr5 pl5">设为首页</a> | <a href="" class="pr5 pl5">加入收藏</a> | <a href="" class="pl5">网站介绍</a></span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="header content1 pt10 pb10">
+        <div class="logo fl"><img src="" alt="" style="background-color:#ddd; width:260px; height:75px;"></div>
+        <ul>
+        	<li><a href="/xinwen">新闻</a></li>
+            <li><a href="/guiji">国际</a></li>
+            <li><a href="/guonei">国内</a></li>
+        </ul>
+    </div>
+
+    <div class="nav">
+    	<ul class="content1 h40 f14">
+        	<li><a href="/">首页</a></li>
+            <li><a href="/zixun">最新资讯</a></li>
+            <li><a href="/guiji">国际</a></li>
+            <li><a href="/guonei">国内</a></li>
+            <li><a href="/shehui">社会</a></li>
+            <li><a href="/tiyu">体育</a></li>
+            <li><a href="/yule">娱乐</a></li>
+            <li><a href="/shenghuo">生活</a></li>
+            <li><a href="/lishi">历史</a></li>
+            <li><a href="/wenhua">文化</a></li>
+            <li><a href="/jiaoyu">教育</a></li>
+            <li><a href="/keji">科技</a></li>
+            <li><a href="/gupiao">股票</a></li>
+            <li><a href="/shishang">时尚</a></li>
+        </ul>
+    </div>
+            <p class="lh40 al pl10 bg-f0f0f0">您当前正在浏览：<a href="/">首页</a> > <a href="/<@栏目名=随机栏目名><@输出($栏目名)>"><@取栏目标题($栏目名)></a> >  <@主关键词><~输出($蜘蛛描述)></p>
+        <div class="lBar2">
+            <h1 class="h40"><@主关键词><~输出($蜘蛛描述)></h1>
+            <p class="fc-999 f-yh lh40">时间：<@时间(年-月-日 时:分:秒,-10时)></p>
+            <!-- 这里是内容的详情 -->
+            <div class="f14 lh25 detail al">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<@随机段落><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<@随机段落($蜘蛛描述)><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<@随机段落><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<@随机段落><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<@随机段落($蜘蛛描述)><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<@随机段落><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<@随机段落($蜘蛛描述)><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<@随机段落><br />
+        <h1><b>推荐内容：<@输出($蜘蛛描述)></b></h1><br>            </div>
+            <div class="mt10 bar2">
+                <h3 class="tit1 lh40 h40 al pl10">相关新闻</h3>
+                <ul class="list1 al pl10 pr10 f14">
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词1)></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词2)></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="rBar1">
+            <div class="bar2">
+                <h3 class="tit1 lh35 h35 al pl10 pr10">大家都爱看</h3>
+                <ul class="list2 al pr10 pl5 f14">
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词3)></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词4)></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词5)></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词6)></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词7)></a><span class='fr'><#时间(月-日)></span></li>
+                </ul>
+            </div>
+            <div class="bar2 mt10">
+                <h3 class="tit1 lh35 h35 al pl10 pr10">推荐</h3>
+                <ul class="list2 al pr10 pl5 f14">
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词8)></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词9)></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词10)></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词11)></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词12)></a><span class='fr'><#时间(月-日)></span></li>
+                </ul>
+            </div>
+            <div class="bar2 mt10">
+                <h3 class="tit1 lh35 h35 al pl10 pr10">相关新闻</h3>
+                <ul class="list2 al pr10 pl5 f14">
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词13)></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#蜘蛛_主关键词($关键词14)></a><span class='fr'><#时间(月-日)></span></li>
+<li class='h30 lh30'><a href=/news/<#随机栏目名>/<#随机数字(5,6)>.html><#随机关键词></a><span class='fr'><#时间(月-日)></span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+        ﻿        <p class="tit3 h40 lh40 al pl10 mt10 f18">友情链接</p>
+        <p class="lh30 al pl10 pr10 pb10">
+        <!-- 推广地址 -->
+        <~输出链接(外)> <~输出链接(外)> <~输出链接(外)> <~输出链接(外)> <~输出链接(外)>
+        <!-- 站内链 -->
+        <~输出链接> <~输出链接> <~输出链接> <~输出链接> <~输出链接>
+        </p>
+    </div>
+
+    <div class="footer w1000">
+    	<p class="pt15 pb15 lh30">
+        	版权所有&copy; CopyRight 2008-2015, Inc. All Rights Reserved.
+            <br>
+            备案/许可证号：赣ICP备09014908号
+        </p>
+    </div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?5fa0fe47bb36599f6c4a8c7695724344";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>   </body>
+</html>
